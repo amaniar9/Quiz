@@ -1,0 +1,240 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            >
+
+
+
+            <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome My Guy"
+            android:padding="16dp"
+            android:textSize="26sp"
+            android:textColor="@color/colorPrimaryDark"    />
+
+             <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:hint="Name"
+                 android:imeOptions="actionDone"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 1"
+                android:paddingTop="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is better?"
+                android:textSize="12sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+
+
+            <RadioGroup
+                android:id="@+id/q_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MJ"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+                <RadioButton
+                    android:id="@+id/you"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lebron"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+
+
+            </RadioGroup>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 2"
+                android:paddingTop="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is the best dog?"
+                android:textSize="12sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <CheckBox
+                android:id="@+id/yugi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yugi"/>
+
+            <CheckBox
+                android:id="@+id/your_dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your dog"/>
+
+            <CheckBox
+                android:id="@+id/snoop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snoop Dogg"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 3"
+                android:paddingTop="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How Should you Deadlift?"
+                android:textSize="12sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <RadioGroup
+                android:id="@+id/q_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/sumo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sumo"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+                <RadioButton
+                    android:id="@+id/traditional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Traditional"
+                    android:textAppearance="?android:textAppearanceSmall"/>
+
+
+
+            </RadioGroup>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 4"
+                android:paddingTop="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check all that apply"
+                android:textSize="12sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"
+                android:textColor="@color/colorPrimaryDark"    />
+
+            <CheckBox
+                android:id="@+id/best"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The office is an amazing show"/>
+
+            <CheckBox
+                android:id="@+id/goku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza is the universal best meal"/>
+
+            <CheckBox
+                android:id="@+id/forex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IML is not a MLM scheme"/>
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:onClick="submit"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>
